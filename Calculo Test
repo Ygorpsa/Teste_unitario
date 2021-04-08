@@ -1,0 +1,38 @@
+package testeunitario;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+public class CalculoTest {
+	
+	Calculo calculo = new Calculo();
+	
+	
+	
+	@Test
+	public void testSomaCenarioFeliz() {
+	Assert.assertEquals(4, calculo.soma(2, 2));
+	}
+	
+	@Test
+	public void testSubtracaoCenarioFeliz() {
+	Assert.assertEquals(2, calculo.subtracao(4, 2));
+	}
+	@Test
+	public void testMultiplicacaoCenarioFeliz() {
+	Assert.assertEquals(4, calculo.multiplicacao(2, 2));
+	}
+	@Test
+	public void testDivisaoCenarioFeliz() {
+	Assert.assertEquals(2, calculo.divisao(4, 2));
+	}
+	
+
+	
+	
+		
+		
+	}
+	
+
